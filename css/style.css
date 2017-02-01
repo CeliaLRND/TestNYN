@@ -12,6 +12,8 @@ div {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment:fixed;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 .main {
