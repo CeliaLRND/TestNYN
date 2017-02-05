@@ -63,8 +63,9 @@ body {
   position: relative;
   top: -58px;
   left: 10px;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Oswald', sans-serif;
+  text-shadow: 0px 0px 9px rgba(130, 150, 150, 0.76);
 }
 .proj {
   height: 280px;
@@ -234,6 +235,7 @@ body {
   }
   .numero-small {
     left: 80px;
+    top: -40px;
   }
   .proj {
     height: 240px;
