@@ -62,7 +62,7 @@ body {
 .numero-small {
   position: relative;
   top: -58px;
-  left: 50px;
+  left: 10px;
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
 }
@@ -78,7 +78,7 @@ body {
 }
 .description .titre {
   font-family: 'Oswald', sans-serif;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   font-size: 25px;
   line-height: 16px;
 }
@@ -207,10 +207,10 @@ body {
   border: solid 1px #b99e81;
 }
 .proj10 .numero-big {
-  color: #a7f0f0;
+  color: #bde3e6;
 }
 .proj10 .description .more a {
-  background-color: #a7f0f0;
+  background-color: #bde3e6;
 }
 .proj10 .description .more a:hover {
   border: solid 1px #4dc5c5;
