@@ -268,18 +268,6 @@ $('#gallery-icon-8,#gallery-link-8').on('click', function() {
             }, {
             'src': './img/proj8/4.jpg',
             
-            }, {
-            'src': './img/proj8/5.jpg',
-            
-            }, {
-            'src': './img/proj8/6.jpg',
-            
-            }, {
-            'src': './img/proj8/7.jpg',
-            
-            }, {
-            'src': './img/proj8/8.jpg',
-            
             }]
     })
  
@@ -306,14 +294,41 @@ $('#gallery-icon-9,#gallery-link-9').on('click', function() {
             }, {
             'src': './img/proj9/5.jpg',
             
-            }, {
-            'src': './img/proj9/6.jpg',
+            }]
+    })
+ 
+});
+
+
+$('#gallery-icon-10,#gallery-link-10').on('click', function() {
+ 
+    $(this).lightGallery({
+        dynamic: true,
+        download: false,
+        counter: false,
+        dynamicEl: [{
+            'src': './img/proj10/1.jpg',
             
             }, {
-            'src': './img/proj9/7.jpg',
+            'src': './img/proj10/2.jpg',
             
             }, {
-            'src': './img/proj9/8.jpg',
+            'src': './img/proj10/3.jpg',
+            
+            }, {
+            'src': './img/proj10/4.jpg',
+            
+            }, {
+            'src': './img/proj10/5.jpg',
+            
+            }, {
+            'src': './img/proj10/6.jpg',
+            
+            }, {
+            'src': './img/proj10/7.jpg',
+            
+            }, {
+            'src': './img/proj10/8.jpg',
             
             }]
     })

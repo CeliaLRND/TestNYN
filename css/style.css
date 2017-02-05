@@ -189,31 +189,31 @@ body {
   border: solid 1px #F354CA;
 }
 .proj8 .numero-big {
-  color: #c3a88f;
+  color: #FBDDA1;
 }
 .proj8 .description .more a {
-  background-color: #c3a88f;
+  background-color: #FBDDA1;
 }
 .proj8 .description .more a:hover {
-  border: solid 1px #b99e81;
+  border: solid 1px #D7B165;
 }
 .proj9 .numero-big {
-  color: #a7f0f0;
+  color: #c3a88f;
 }
 .proj9 .description .more a {
-  background-color: #a7f0f0;
+  background-color: #c3a88f;
 }
 .proj9 .description .more a:hover {
-  border: solid 1px #4dc5c5;
+  border: solid 1px #b99e81;
 }
 .proj10 .numero-big {
-  color: #d2b3f3;
+  color: #a7f0f0;
 }
 .proj10 .description .more a {
-  background-color: #d2b3f3;
+  background-color: #a7f0f0;
 }
 .proj10 .description .more a:hover {
-  border: solid 1px #b97ff8;
+  border: solid 1px #4dc5c5;
 }
 .proj1:hover > .illustration .pic1,
 .proj2:hover > .illustration .pic2,
