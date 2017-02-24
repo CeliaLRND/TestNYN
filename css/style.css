@@ -257,18 +257,6 @@ body {
   -webkit-animation: pulse 1s;
   animation: pulse 1s;
 }
-@media screen and (max-width: 768px) {
-  .row .col {
-    text-align: center;
-  }
-  .numero-small {
-    left: 120px;
-    top: -40px;
-  }
-  .proj {
-    height: 240px;
-  }
-}
 @media screen and (min-width: 768px) {
   .proj1:hover > .col .description.right,
   .proj3:hover > .col .description.right,
@@ -344,18 +332,15 @@ body {
 }
 .outro .newsletter {
   height: 100px;
-  width: 450px;
+  width: 455px;
   margin: 0 auto;
-}
-.outro .newsletter .see-more {
-  margin-bottom: 25px;
 }
 .outro .newsletter form {
   float: left;
   margin-right: 15px;
 }
 .outro .newsletter form input {
-  width: 297px;
+  width: 300px;
   height: 40px;
   line-height: 40px;
   border: 1px solid #e4e4e4;
@@ -382,7 +367,32 @@ body {
   background-color: #1F262C;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-bottom: 25px;
 }
 .outro .btn:hover {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 768px) {
+  .row .col {
+    text-align: center;
+  }
+  .numero-small {
+    left: 120px;
+    top: -40px;
+  }
+  .proj {
+    height: 240px;
+  }
+  .outro .newsletter form {
+    float: none;
+  }
+  .outro .btn {
+    float: none;
+  }
+  .outro .newsletter {
+    width: 100%;
+  }
+  .outro .newsletter form input {
+    width: 100%;
+  }
 }
