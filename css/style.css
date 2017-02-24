@@ -330,7 +330,7 @@ body {
   margin-bottom: 7px;
 }
 .contact form textarea {
-  border-radius: 2px 2px 0px 10px;
+  border-radius: 2px 2px 0px 2px;
   margin-bottom: 7px;
 }
 .contact form button {
