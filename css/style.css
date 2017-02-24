@@ -335,6 +335,9 @@ body {
   width: 455px;
   margin: 0 auto;
 }
+.outro .newsletter .see-more {
+  margin-bottom: 15px;
+}
 .outro .newsletter form {
   float: left;
   margin-right: 15px;
