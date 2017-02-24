@@ -344,7 +344,7 @@ $('#gallery-icon-10,#gallery-link-10').on('click', function() {
 
 
 $(document).ready(function() {
-  $('#clickMe1').on('click', function() {
+  $('#clickMe').on('click', function() {
     $('#pinThese img').click();
   });
 });
