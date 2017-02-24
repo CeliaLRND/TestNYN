@@ -7,6 +7,11 @@ html,body
     overflow-x: hidden; 
 }
 
+.pinThese img{
+	position: absolute;
+  margin-left: -9999em;
+}
+
 .main {
 	background: url("../img/background.jpg");
 	background-size: cover;
@@ -51,6 +56,34 @@ html,body
 		}	
 	}
 }
+
+.pinterest {
+position: relative;
+bottom: 23px;
+left: 84px;
+cursor: pointer;
+a {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #1f262c;	
+	text-align: center;
+	background-color: #f5f4f6;
+	padding: 3px 8px 3px 8px;
+	border: solid 1px transparent;
+	text-decoration: none;
+		height: 19px;
+		width: 30px;
+		border-radius: 19px;
+}
+			a:hover {
+	
+				background-color: #ebeaec;
+				color: #ef6e6e;
+			}
+
+}
+
 
 
 //Products pic
@@ -110,7 +143,8 @@ html,body
 	    margin-bottom: 4px;
 		margin-top: 6px;
 	}
-	.more a {
+	.more { 
+		a {
 		font-family: 'Pontano Sans', sans-serif;
 		font-size: 12px;
 	    line-height: 19px;
@@ -124,6 +158,7 @@ html,body
 		padding: 3px 8px 3px 8px;
 		border: solid 1px transparent;
 	}
+}
 	//.more a:hover {
 //		border: solid 1px #d2e949;
 //	}

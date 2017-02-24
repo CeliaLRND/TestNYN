@@ -186,6 +186,9 @@ $('#gallery-icon-5,#gallery-link-5').on('click', function() {
             
             }, {
             'src': './img/proj5/10.jpg',
+
+            }, {
+            'src': './img/proj5/11.jpg',
             
             }]
     })
@@ -243,6 +246,9 @@ $('#gallery-icon-7,#gallery-link-7').on('click', function() {
             
             }, {
             'src': './img/proj7/6.jpg',
+
+            }, {
+            'src': './img/proj7/7.jpg',
             
             }]
     })
@@ -334,4 +340,11 @@ $('#gallery-icon-10,#gallery-link-10').on('click', function() {
     })
  
 });
+});
+
+
+$(document).ready(function() {
+  $('#clickMe').on('click', function() {
+    $('#pinThese img').click();
+  });
 });
