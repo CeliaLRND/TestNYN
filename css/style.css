@@ -49,12 +49,6 @@ body {
   background-color: #000;
   color: #fff;
 }
-.pinterest {
-  position: relative;
-  bottom: 23px;
-  left: 84px;
-  cursor: pointer;
-}
 .pinterest a {
   font-family: 'Pontano Sans', sans-serif;
   font-size: 12px;
@@ -72,6 +66,18 @@ body {
 .pinterest a:hover {
   background-color: #ebeaec;
   color: #ef6e6e;
+}
+.right .pinterest {
+  position: relative;
+  bottom: 24px;
+  left: 84px;
+  cursor: pointer;
+}
+.left .pinterest {
+  position: relative;
+  bottom: 24px;
+  left: -82px;
+  cursor: pointer;
 }
 .numero-big {
   font-family: 'Oswald', sans-serif;
